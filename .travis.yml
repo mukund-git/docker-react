@@ -3,7 +3,7 @@ SUDO: required
 Services:
   - docker
 
-before-install:
+before_install:
   - docker build -t mukundr/docker-react -f Dockerfile.dev .
 
 script:
