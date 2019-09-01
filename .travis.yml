@@ -1,6 +1,6 @@
-SUDO: required
+sudo: required
 
-Services:
+services:
   - docker
 
 before_install:
